@@ -25,7 +25,7 @@ for ChocolateChips in ChocolateChips.take('200g'):
 bowl.add(BakingPowder('a teaspoon'))
 
 #Form cookies 
-bakingtray = BakingTray.use(name='cookie tray')
+bakingtray = BakingTray.use(name='choc chip cookies')
 for i in range(8):
     cookie = bowl.take('1/8')
     bakingtray.add(cookie)
